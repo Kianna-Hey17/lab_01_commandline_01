@@ -1,10 +1,10 @@
 
 Lab - Entering Commands
 ==========
-Follow the instructions line-by-line.  
+Follow the instructions line-by-line.
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* Type in the commands as is, but ignore the beginning prompt.
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
@@ -17,29 +17,37 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Adlm				Public
+Applications			QLData
+Desktop				Things
+Documents			ipe.properties
+Downloads			isus
+Library				lab_01_commandline_01
+Movies				pslog_20200109_170408.log
+Music				pymel.log
+Pictures			xgen
 
 
 ==========
-2a. Type: 
+2a. Type:
 
 $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+ "No output"
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Desktop/   Documents/ Downloads/
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: D: No such file or directory
 
 
 ==========
@@ -49,7 +57,22 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 8
+drwxrwxrwx  15 student  staff   510 Jan  9 17:04 Adobe
+drwxr-xr-x   3 student  staff   102 Aug 22  2016 Arduino
+drwxrwxrwx   3 student  staff   102 Jan  9 15:22 Avid Projects
+drwxr-xr-x   4 student  staff   136 Aug 22  2016 Fritzing
+drwxr-xr-x   3 student  staff   102 Aug  9  2017 MakeHuman
+drwxr-xr-x   9 student  staff   306 Aug 22  2016 Max 7
+-rw-r--r--   1 student  staff  2112 Aug  2  2018 MuseLog.txt
+drwxr-xr-x   3 student  staff   102 Jul 24  2019 Native Instruments
+drwxr-xr-x   3 student  staff   102 Jan 17  2018 Pd
+drwxr-xr-x  16 student  staff   544 Jan  9 15:22 Pro Tools
+drwxr-xr-x   7 student  staff   238 Jan 17  2017 Processing
+drwxr-xr-x   2 student  staff    68 Aug 31  2016 Temporary Work
+drwxr-xr-x   2 student  staff    68 Aug  2  2018 Unreal Projects
+-rw-r--r--   1 student  staff     0 Aug 22  2016 iChats
+drwxr-xr-x   3 student  staff   102 Aug 22  2016 maya
 
 
 ==========
@@ -59,6 +82,13 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+.			Avid Projects		Pro Tools
+..			Fritzing		Processing
+.DS_Store		MakeHuman		Temporary Work
+.TmThBHyOVRrMJdi0	Max 7			Unreal Projects
+.localized		MuseLog.txt		iChats
+Adobe			Native Instruments	maya
+Arduino			Pd
 
 
 
@@ -69,6 +99,21 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
+.			Avid Projects		Pro Tools
+..			Fritzing		Processing
+.DS_Store		MakeHuman		Temporary Work
+.TmThBHyOVRrMJdi0	Max 7			Unreal Projects
+.localized		MuseLog.txt		iChats
+Adobe			Native Instruments	maya
+Arduino			Pd
+v314-ent-017:~ student$ ls -a Documents/
+.			Avid Projects		Pro Tools
+..			Fritzing		Processing
+.DS_Store		MakeHuman		Temporary Work
+.TmThBHyOVRrMJdi0	Max 7			Unreal Projects
+.localized		MuseLog.txt		iChats
+Adobe			Native Instruments	maya
+Arduino			Pd
 
 
 
@@ -79,6 +124,29 @@ What command was repeated?
 
 What command was repeated?
 ----------
+.			Avid Projects		Pro Tools
+..			Fritzing		Processing
+.DS_Store		MakeHuman		Temporary Work
+.TmThBHyOVRrMJdi0	Max 7			Unreal Projects
+.localized		MuseLog.txt		iChats
+Adobe			Native Instruments	maya
+Arduino			Pd
+v314-ent-017:~ student$ ls -a Documents/
+.			Avid Projects		Pro Tools
+..			Fritzing		Processing
+.DS_Store		MakeHuman		Temporary Work
+.TmThBHyOVRrMJdi0	Max 7			Unreal Projects
+.localized		MuseLog.txt		iChats
+Adobe			Native Instruments	maya
+Arduino			Pd
+v314-ent-017:~ student$ ls -a Documents/
+.			Avid Projects		Pro Tools
+..			Fritzing		Processing
+.DS_Store		MakeHuman		Temporary Work
+.TmThBHyOVRrMJdi0	Max 7			Unreal Projects
+.localized		MuseLog.txt		iChats
+Adobe			Native Instruments	maya
+Arduino			Pd
 
 
 
@@ -89,7 +157,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Macintosh HD		firmwaresyncd.6U090t
 
 
 ==========
@@ -99,7 +167,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
