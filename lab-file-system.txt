@@ -1,10 +1,10 @@
-
+Kianna Heyward
 Lab - Navigating the File System
 ==========
-Follow the instructions line-by-line.  
+Follow the instructions line-by-line.
 
-* Type in the commands as is, but ignore the beginning prompt.  
-* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
+* Type in the commands as is, but ignore the beginning prompt.
+* Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
@@ -42,7 +42,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 ==========
@@ -53,7 +53,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	food
 
 
 ==========
@@ -64,7 +64,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 ==========
@@ -75,7 +75,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +86,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002/foo/bar
 
 
 ==========
@@ -97,9 +97,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+/Users/student/mtec1002/foo/bar/baz/qux
 
 
- 
 ==========
 11. Type:
 
@@ -108,7 +108,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -120,7 +120,13 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+total 0
+drwxr-xr-x  2 student  staff   68 Feb 10 16:32 animals
+drwxr-xr-x  3 student  staff  102 Feb 10 16:33 foo
+drwxr-xr-x  2 student  staff   68 Feb 10 16:32 food
 
+drwxr-xr-x  3 student  staff  102 Feb 10 16:33 foo
+drwxr-xr-x  2 student  staff   68 Feb 10 16:32 food
 
 
 ==========
@@ -131,7 +137,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -142,7 +148,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 ==========
@@ -153,7 +159,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+-bash: cd: /unknown_folder: No such file or directory
 
 
 ==========
@@ -164,7 +170,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student/mtec1002
 
 
 ==========
@@ -174,7 +180,7 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+v314-ent-017.local
 
 
 ==========
@@ -207,7 +213,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 
 ==========
-19. Make another directory called aardvark.  
+19. Make another directory called aardvark.
 
 Write the command you used to create the directory below:
 ----------
@@ -215,7 +221,7 @@ Write the command you used to create the directory below:
 
 
 ==========
-20. List the files and directories in the current directory using the long format.  
+20. List the files and directories in the current directory using the long format.
 
 What is the modified date of the aardvark directory?
 ----------
